@@ -10,7 +10,10 @@ class Home extends BaseController
     // }
 
     public function index(){
-        echo 'Restoran';     
+        echo 'nyoba';   
     }
 
+    public function about(){
+        echo "hugo";   
+    }
 }

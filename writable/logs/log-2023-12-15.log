@@ -1,0 +1,854 @@
+WARNING - 2023-12-15 04:18:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+WARNING - 2023-12-15 04:19:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$nama is deprecated in APPPATH\Controllers\BaseController.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 04:31:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "myOrder.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('myOrder.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('myOrder', [], true)
+ 3 APPPATH\Controllers\Pages.php(16): view('myOrder')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->myOrder()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 04:34:29 --> ErrorException: Undefined property: CodeIgniter\View\View::$cart
+in APPPATH\Views\pages\myOrder.php on line 33.
+ 1 APPPATH\Views\pages\myOrder.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$cart', 'C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\app\\Views\\pages\\myOrder.php', 33)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\app\\Views\\pages\\myOrder.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('pages/myOrder', [], true)
+ 5 APPPATH\Controllers\Pages.php(16): view('pages/myOrder')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->myOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 05:19:24 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\pages\home.php on line 131.
+ 1 APPPATH\Views\pages\home.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\app\\Views\\pages\\home.php', 131)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Pages.php(16): view('pages/home')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 05:49:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('layout/home', [], true)
+ 3 APPPATH\Controllers\Pages.php(15): view('layout/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 05:50:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/home.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('layout/home', [], true)
+ 3 APPPATH\Controllers\Pages.php(15): view('layout/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 05:50:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "page/home.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/home.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('page/home', [], true)
+ 3 APPPATH\Controllers\Pages.php(15): view('page/home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 08:36:32 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\menu\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('menu/index', [], true)
+ 4 APPPATH\Controllers\Menu.php(16): view('menu/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Menu->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 08:36:36 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\menu\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('menu/index', [], true)
+ 4 APPPATH\Controllers\Menu.php(16): view('menu/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Menu->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 09:11:20 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\menu\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('menu/index', [], true)
+ 4 APPPATH\Controllers\Menu.php(16): view('menu/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Menu->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Lenovo\\OneDrive\\Documents\\aifb\\TubesTST-Sistem-Pesan-Antar\\public\\index.php')
+CRITICAL - 2023-12-15 10:40:11 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\menu\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('menu/index', [], true)
+ 4 APPPATH\Controllers\Menu.php(16): view('menu/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Menu->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 10:40:49 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\menu\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('menu/index', [], true)
+ 4 APPPATH\Controllers\Menu.php(16): view('menu/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Menu->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 10:43:56 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\menu\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('menu/index', [], true)
+ 4 APPPATH\Controllers\Menu.php(16): view('menu/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Menu->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 11:41:31 --> Error: Class "App\Models\Model" not found
+in APPPATH\Models\Order.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Models\\Order.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Order')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Order')
+ 5 SYSTEMPATH\Config\Factories.php(280): class_exists('App\\Models\\Order')
+ 6 SYSTEMPATH\Config\Factories.php(199): CodeIgniter\Config\Factories::locateClass([...], 'App\\Models\\Order')
+ 7 SYSTEMPATH\Config\Factories.php(158): CodeIgniter\Config\Factories::getDefinedInstance([...], 'App\\Models\\Order', [...])
+ 8 SYSTEMPATH\Common.php(809): CodeIgniter\Config\Factories::__callStatic('models', [...])
+ 9 APPPATH\Controllers\OrderController.php(8): model('App\\Models\\Order')
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 11:43:23 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 11:43:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 15:44:14 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 15:44:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 15:53:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 15:53:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 15:54:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 15:54:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 15:57:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 15:57:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 15:57:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 15:57:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 22:25:35 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 22:25:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 22:25:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 22:25:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+ERROR - 2023-12-15 22:25:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'dbpesanantar', 3306, '', 0)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+#5 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+#6 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\app\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+#7 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(942): App\Controllers\OrderController->index()
+#8 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+#9 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Hugo\Documents\GitHub\Branch Sistem Pesan Antar\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\D...')
+#12 {main}
+CRITICAL - 2023-12-15 22:25:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vieworder`
+ LIMIT 1000', [], false)
+ 3 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll(1000, 0)
+ 5 APPPATH\Models\Order.php(9): CodeIgniter\BaseModel->findAll(1000)
+ 6 APPPATH\Controllers\OrderController.php(9): App\Models\Order->getDataOrder()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:26:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:26:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:28:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:28:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:28:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:28:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:28:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:28:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:28:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:30:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:30:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('header', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:31:56 --> ErrorException: Undefined variable $title
+in APPPATH\Views\layout\header.php on line 11.
+ 1 APPPATH\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Views\\layout\\header.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\OrderController.php(10): view('layout/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:31:57 --> ErrorException: Undefined variable $title
+in APPPATH\Views\layout\header.php on line 11.
+ 1 APPPATH\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Views\\layout\\header.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\OrderController.php(10): view('layout/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:31:57 --> ErrorException: Undefined variable $title
+in APPPATH\Views\layout\header.php on line 11.
+ 1 APPPATH\Views\layout\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Views\\layout\\header.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Controllers\OrderController.php(10): view('layout/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:34:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dbpesanantar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dbpesanantar.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('dbpesanantar', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('dbpesanantar')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:35:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dbpesanantar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dbpesanantar.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('dbpesanantar', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('dbpesanantar')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:37:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Order.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Order.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('Order', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('Order')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:37:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Order.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Order.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('Order', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('Order')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:42:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Order.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Order.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('Order', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('Order')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:42:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Order.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Order.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('Order', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('Order')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:45:53 --> ErrorException: Undefined variable $data
+in APPPATH\Controllers\Pages.php on line 13.
+ 1 APPPATH\Controllers\Pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\app\\Controllers\\Pages.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Pages->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:46:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Order.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Order.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('Order', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('Order')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:47:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "order.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('order', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('order')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:47:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "order.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('order.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('order', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('order')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:51:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
+CRITICAL - 2023-12-15 22:51:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1172): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\OrderController.php(10): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\OrderController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrderController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Hugo\\Documents\\GitHub\\Branch Sistem Pesan Antar\\public\\index.php')
